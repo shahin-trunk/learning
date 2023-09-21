@@ -13,7 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
   learning_input_image:
-    path: ../learning_input_image
+    git:
+      url: https://github.com/shahin-trunk/learning.git
+      path: packages/learning_input_image
 
 dev_dependencies:
   flutter_test:
